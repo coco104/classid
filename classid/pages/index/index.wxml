@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="itemView"> 学号：
+    <input class="input" name="student_id" placeholder="请输入学号"
+    bindinput ="student_idInput"/>
+  </view>
+<view class="itemView">课程id
+    <input class="input"  placeholder="请输入课程id"
+     bindinput="class_idInput" />
+  </view>
+<view class="viewName" style="background-color:#fbf9fe">
+  <button class="loginBtn" bindtap="sentNumber">查询</button>
+</view>
+<view>{{screenData}}</view>
